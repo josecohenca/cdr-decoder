@@ -1,0 +1,14 @@
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\bin\Debug\Ericsson.CDR.Definition.xml
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\bin\Debug\SiemensD900.CDR.Definition.xml
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\bin\Debug\CDR.Decoder.exe
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\bin\Debug\CDR.Decoder.pdb
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\bin\Debug\CDR.Decoder.Core.dll
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\bin\Debug\CDR.Decoder.Core.pdb
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\Decoder.AboutForm.resources
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\Decoder.FormatterSettingsForm.resources
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\Decoder.MainForm.resources
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\Decoder.Properties.Resources.resources
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\CDR.Decoder.csproj.GenerateResource.Cache
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\CDR.Decoder.exe
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder\obj\Debug\CDR.Decoder.pdb

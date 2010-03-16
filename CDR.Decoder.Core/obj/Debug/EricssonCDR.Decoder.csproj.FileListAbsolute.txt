@@ -1,0 +1,5 @@
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\EricssonCDR.Decoder\EricssonCDR.Decoder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\EricssonCDR.Decoder\EricssonCDR.Decoder\bin\Debug\EricssonCDR.Decoder.dll
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\EricssonCDR.Decoder\EricssonCDR.Decoder\bin\Debug\EricssonCDR.Decoder.pdb
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\EricssonCDR.Decoder\EricssonCDR.Decoder\obj\Debug\EricssonCDR.Decoder.dll
+C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\EricssonCDR.Decoder\EricssonCDR.Decoder\obj\Debug\EricssonCDR.Decoder.pdb
