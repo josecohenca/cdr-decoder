@@ -1,8 +1,0 @@
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\bin\Release\Ericsson.CDR.Definition.xml
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\bin\Release\SiemensD900.CDR.Definition.xml
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\bin\Release\CDR.Decoder.Core.dll.config
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\bin\Release\CDR.Decoder.Core.dll
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\bin\Release\CDR.Decoder.Core.pdb
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\obj\Release\ResolveAssemblyReference.cache
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\obj\Release\CDR.Decoder.Core.dll
-C:\Users\Dmitry\Documents\Visual Studio 2008\Projects\CDR.Decoder\CDR.Decoder.Core\obj\Release\CDR.Decoder.Core.pdb
