@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.pictureBox = new System.Windows.Forms.PictureBox();
             this.inProgressGroupBox = new System.Windows.Forms.GroupBox();
             this.filesInText = new System.Windows.Forms.Label();
+            this.statusBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.filesInLabel = new System.Windows.Forms.Label();
             this.srcCdrText = new System.Windows.Forms.Label();
             this.srcCdrLabel = new System.Windows.Forms.Label();
@@ -54,38 +54,25 @@
             this.jobTabPage = new System.Windows.Forms.TabPage();
             this.jobPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.jobToolStrip = new System.Windows.Forms.ToolStrip();
+            this.logTabPage = new System.Windows.Forms.TabPage();
+            this.logListView = new System.Windows.Forms.ListView();
+            this.timeColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.messageColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.newToolButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.openToolButton = new System.Windows.Forms.ToolStripButton();
             this.saveToolButton = new System.Windows.Forms.ToolStripButton();
-            this.logTabPage = new System.Windows.Forms.TabPage();
-            this.logListView = new System.Windows.Forms.ListView();
-            this.timeColumnHeader = new System.Windows.Forms.ColumnHeader();
-            this.messageColumnHeader = new System.Windows.Forms.ColumnHeader();
             this.helpButton = new System.Windows.Forms.Button();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.statusBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.inProgressGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.statusBindingSource)).BeginInit();
             this.sinceStartupGroupBox.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.jobTabPage.SuspendLayout();
-            this.jobToolStrip.SuspendLayout();
             this.logTabPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.statusBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox
-            // 
-            this.pictureBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox.Image = global::Decoder.Properties.Resources.decoder_logo_3;
-            this.pictureBox.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(480, 83);
-            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox.TabIndex = 4;
-            this.pictureBox.TabStop = false;
             // 
             // inProgressGroupBox
             // 
@@ -112,6 +99,10 @@
             this.filesInText.Size = new System.Drawing.Size(58, 13);
             this.filesInText.TabIndex = 11;
             this.filesInText.Text = "filesInText";
+            // 
+            // statusBindingSource
+            // 
+            this.statusBindingSource.DataSource = typeof(CDR.Decoder.JobStatus);
             // 
             // filesInLabel
             // 
@@ -173,7 +164,7 @@
             // exitButton
             // 
             this.exitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.exitButton.Location = new System.Drawing.Point(393, 489);
+            this.exitButton.Location = new System.Drawing.Point(393, 414);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(75, 23);
             this.exitButton.TabIndex = 9;
@@ -276,7 +267,7 @@
             // decodeButton
             // 
             this.decodeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.decodeButton.Location = new System.Drawing.Point(311, 489);
+            this.decodeButton.Location = new System.Drawing.Point(311, 414);
             this.decodeButton.Name = "decodeButton";
             this.decodeButton.Size = new System.Drawing.Size(75, 23);
             this.decodeButton.TabIndex = 13;
@@ -288,17 +279,19 @@
             // 
             this.tabControl.Controls.Add(this.jobTabPage);
             this.tabControl.Controls.Add(this.logTabPage);
-            this.tabControl.Location = new System.Drawing.Point(2, 93);
+            this.tabControl.ImageList = this.imageList;
+            this.tabControl.Location = new System.Drawing.Point(2, 12);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(477, 390);
+            this.tabControl.Size = new System.Drawing.Size(477, 391);
             this.tabControl.TabIndex = 14;
             // 
             // jobTabPage
             // 
             this.jobTabPage.Controls.Add(this.jobPropertyGrid);
             this.jobTabPage.Controls.Add(this.jobToolStrip);
-            this.jobTabPage.Location = new System.Drawing.Point(4, 22);
+            this.jobTabPage.ImageIndex = 0;
+            this.jobTabPage.Location = new System.Drawing.Point(4, 23);
             this.jobTabPage.Name = "jobTabPage";
             this.jobTabPage.Padding = new System.Windows.Forms.Padding(3);
             this.jobTabPage.Size = new System.Drawing.Size(469, 364);
@@ -329,6 +322,55 @@
             this.jobToolStrip.Size = new System.Drawing.Size(463, 25);
             this.jobToolStrip.TabIndex = 1;
             this.jobToolStrip.Text = "toolStrip1";
+            // 
+            // logTabPage
+            // 
+            this.logTabPage.Controls.Add(this.logListView);
+            this.logTabPage.Controls.Add(this.inProgressGroupBox);
+            this.logTabPage.Controls.Add(this.sinceStartupGroupBox);
+            this.logTabPage.ImageIndex = 1;
+            this.logTabPage.Location = new System.Drawing.Point(4, 23);
+            this.logTabPage.Name = "logTabPage";
+            this.logTabPage.Padding = new System.Windows.Forms.Padding(6);
+            this.logTabPage.Size = new System.Drawing.Size(469, 364);
+            this.logTabPage.TabIndex = 2;
+            this.logTabPage.Text = "Decoder Log";
+            this.logTabPage.UseVisualStyleBackColor = true;
+            // 
+            // logListView
+            // 
+            this.logListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.timeColumnHeader,
+            this.messageColumnHeader});
+            this.logListView.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.logListView.FullRowSelect = true;
+            this.logListView.GridLines = true;
+            this.logListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.logListView.Location = new System.Drawing.Point(6, 117);
+            this.logListView.Name = "logListView";
+            this.logListView.Size = new System.Drawing.Size(457, 241);
+            this.logListView.TabIndex = 13;
+            this.logListView.UseCompatibleStateImageBehavior = false;
+            this.logListView.View = System.Windows.Forms.View.Details;
+            this.logListView.VirtualMode = true;
+            this.logListView.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.logListView_RetrieveVirtualItem);
+            // 
+            // timeColumnHeader
+            // 
+            this.timeColumnHeader.Text = "Time";
+            this.timeColumnHeader.Width = 90;
+            // 
+            // messageColumnHeader
+            // 
+            this.messageColumnHeader.Text = "Message";
+            this.messageColumnHeader.Width = 331;
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "1289586052_cog_edit.png");
+            this.imageList.Images.SetKeyName(1, "1289586063_accept.png");
             // 
             // newToolButton
             // 
@@ -365,51 +407,10 @@
             this.saveToolButton.ToolTipText = "Save this settings to file.";
             this.saveToolButton.Click += new System.EventHandler(this.saveToolButton_Click);
             // 
-            // logTabPage
-            // 
-            this.logTabPage.Controls.Add(this.logListView);
-            this.logTabPage.Controls.Add(this.inProgressGroupBox);
-            this.logTabPage.Controls.Add(this.sinceStartupGroupBox);
-            this.logTabPage.Location = new System.Drawing.Point(4, 22);
-            this.logTabPage.Name = "logTabPage";
-            this.logTabPage.Padding = new System.Windows.Forms.Padding(6);
-            this.logTabPage.Size = new System.Drawing.Size(469, 364);
-            this.logTabPage.TabIndex = 2;
-            this.logTabPage.Text = "Decoder Log";
-            this.logTabPage.UseVisualStyleBackColor = true;
-            // 
-            // logListView
-            // 
-            this.logListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.timeColumnHeader,
-            this.messageColumnHeader});
-            this.logListView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.logListView.FullRowSelect = true;
-            this.logListView.GridLines = true;
-            this.logListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.logListView.Location = new System.Drawing.Point(6, 117);
-            this.logListView.Name = "logListView";
-            this.logListView.Size = new System.Drawing.Size(457, 241);
-            this.logListView.TabIndex = 13;
-            this.logListView.UseCompatibleStateImageBehavior = false;
-            this.logListView.View = System.Windows.Forms.View.Details;
-            this.logListView.VirtualMode = true;
-            this.logListView.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.logListView_RetrieveVirtualItem);
-            // 
-            // timeColumnHeader
-            // 
-            this.timeColumnHeader.Text = "Time";
-            this.timeColumnHeader.Width = 90;
-            // 
-            // messageColumnHeader
-            // 
-            this.messageColumnHeader.Text = "Message";
-            this.messageColumnHeader.Width = 331;
-            // 
             // helpButton
             // 
             this.helpButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.helpButton.Location = new System.Drawing.Point(12, 489);
+            this.helpButton.Location = new System.Drawing.Point(12, 414);
             this.helpButton.Name = "helpButton";
             this.helpButton.Size = new System.Drawing.Size(75, 23);
             this.helpButton.TabIndex = 15;
@@ -425,20 +426,15 @@
             // 
             this.openFileDialog.Filter = "Job Files (*.job)|*.job|All Files (*.*)|*.*";
             // 
-            // statusBindingSource
-            // 
-            this.statusBindingSource.DataSource = typeof(CDR.Decoder.JobStatus);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 524);
+            this.ClientSize = new System.Drawing.Size(480, 449);
             this.Controls.Add(this.helpButton);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.decodeButton);
             this.Controls.Add(this.exitButton);
-            this.Controls.Add(this.pictureBox);
             this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -446,28 +442,23 @@
             this.MinimizeBox = false;
             this.Name = "MainForm";
             this.Text = "CDR Decoder";
-            this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
+            this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.inProgressGroupBox.ResumeLayout(false);
             this.inProgressGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.statusBindingSource)).EndInit();
             this.sinceStartupGroupBox.ResumeLayout(false);
             this.sinceStartupGroupBox.PerformLayout();
             this.tabControl.ResumeLayout(false);
             this.jobTabPage.ResumeLayout(false);
             this.jobTabPage.PerformLayout();
-            this.jobToolStrip.ResumeLayout(false);
-            this.jobToolStrip.PerformLayout();
             this.logTabPage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.statusBindingSource)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.GroupBox inProgressGroupBox;
         private System.Windows.Forms.Label recOutText;
         private System.Windows.Forms.Label recOutLabel;
@@ -503,6 +494,7 @@
         private System.Windows.Forms.ColumnHeader timeColumnHeader;
         private System.Windows.Forms.Label filesInLabel;
         private System.Windows.Forms.Label filesInText;
+        private System.Windows.Forms.ImageList imageList;
     }
 }
 

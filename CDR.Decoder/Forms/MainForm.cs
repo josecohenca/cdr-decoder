@@ -183,5 +183,10 @@ namespace Decoder
             }
             e.Item.SubItems.Add(_logBuffer[e.ItemIndex].Message);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
