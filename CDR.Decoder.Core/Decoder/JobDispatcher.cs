@@ -2,6 +2,8 @@
 using System.ComponentModel;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
+using System.Text;
 
 namespace CDR.Decoder
 {
@@ -51,13 +53,13 @@ namespace CDR.Decoder
                 }
                 else
                 {
-                    _logger.WriteLogMessage("!!! Signatures definition not found, check definition.xml", LogLevel.Info, false);
+                    _logger.WriteLogMessage("!!! Signatures definition not found, check definition.xml", LogLevel.Error, false);
                     _ready = false;
                 }
             }
             else
             {
-                _logger.WriteLogMessage("!!! Schemas definition not found, check definition.xml", LogLevel.Info, false);
+                _logger.WriteLogMessage("!!! Schemas definition not found, check definition.xml", LogLevel.Error, false);
                 _ready = false;
             }
         }
@@ -92,7 +94,21 @@ namespace CDR.Decoder
             CdrElement record;
 
             RecordFormatter formatter = (_job.IsFormatterActive && (_job.FormatterSettings != null)) ? new RecordFormatter(_job.FormatterSettings) : null;
-            Regex filterRegex = (_job.IsFilterActive && !String.IsNullOrEmpty(_job.FilterText)) ? new Regex(_job.FilterText, RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.Singleline) : null;
+            Regex filterRegex = null;
+            if (_job.IsFilterActive && !String.IsNullOrEmpty(_job.FilterText))
+            {
+                try
+                {
+                    filterRegex = new Regex(_job.FilterText, RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.Singleline);
+                }
+                catch (Exception error)
+                {
+                    _logger.WriteLogMessage(String.Format("!!! A filter regular expression parsing error in FilterText occurred: {0}", error.Message), LogLevel.Error, true);
+                    _status.ResultCode = JobResultCode.FatalError;
+                    _logger.WriteLogMessage("+++ The job finished with an error.", LogLevel.Info);
+                    return;
+                }
+            }
 
             StreamWriter dstFile = new StreamWriter(_job.DestinationPath);
             if ((formatter != null) && _job.FormatterSettings.PrintColumnsHeader)
@@ -107,6 +123,13 @@ namespace CDR.Decoder
             long cdrLength;
             long rem;
             string recText;
+
+            // SGSN patch ///////////////////////////////////////////////////////////
+            
+            bool sgsn = !String.IsNullOrEmpty(decoder.ElementDefinitionProvider.Type) && (String.Compare(decoder.ElementDefinitionProvider.Type, "SGSN", true) == 0);
+            List<CdrElement> sgsnRecord = new List<CdrElement>();
+
+            /////////////////////////////////////////////////////////////////////////
 
             _status.CdrFilesIn = cdrFiles.Length;
             _logger.WriteLogMessage(String.Format("Files to decode: {0}", _status.CdrFilesIn), LogLevel.Info, false);
@@ -123,26 +146,117 @@ namespace CDR.Decoder
                 _status.CurrentCdrFile = fi.Name;
                 rem = 0;
 
+                if (sgsn)
+                {
+                    sgsnRecord.Clear();
+                }
+
                 _logger.WriteLogMessage(String.Format("{0} ... ", fi.Name), LogLevel.Info);
                 _worker.ReportProgress(_status.Percent);
                 for (; ; )
                 {
                     if (_status.RecordsOut == 0)
                     {
-                        record = decoder.DecodeRecord(cdr, true);
+                        if (sgsn && (sgsnRecord.Count > 0))
+                        {
+                            record = decoder.DecodeRecord(cdr, false);
+                        }
+                        else
+                        {
+                            record = decoder.DecodeRecord(cdr, true);
+                        }
                     }
                     else
                     {
                         record = decoder.DecodeRecord(cdr, false);
                     }
                     if (record == null)
+                    {
+                        if (sgsn && (sgsnRecord.Count > 0))
+                        {
+                            _status.RecordsOut++;
+                            _status.RecordsOutTotal++;
+                            _status.Percent = (int)Math.Ceiling((double)cdr.Position / cdrLength * 100);
+
+                            if (formatter == null)
+                            {
+                                StringBuilder sgsnText = new StringBuilder(String.Format("{0,8} > {1} {2}=[", sgsnRecord[0].Offset, _status.RecordsOut, sgsnRecord[0].Name), sgsnRecord.Count + 1);
+                                for (int s = 1; s < sgsnRecord.Count; s++)
+                                {
+                                    if (s > 1)
+                                        sgsnText.Append(' ');
+                                    sgsnText.Append(sgsnRecord[s].ToString());
+                                }
+
+                                sgsnText.Append("]");
+                                recText = sgsnText.ToString();
+                            }
+                            else
+                            {
+                                recText = formatter.FormatSGSNRecord(sgsnRecord);
+                            }
+
+                            if ((filterRegex == null) || (filterRegex.Match(recText).Success))
+                                dstFile.WriteLine(recText);
+
+                            Math.DivRem(_status.RecordsOut, 1000, out rem);
+                            if (rem == 0) _worker.ReportProgress(_status.Percent);
+
+                        }
                         break;
+                    }
+
+                    if (sgsn)
+                    {
+                        if (_worker.CancellationPending)
+                        {
+                            break;
+                        }
+                        if (record.IsConstructed && (record.Path.Equals("20") || record.Path.Equals("23") || record.Path.Equals("24")))
+                        {
+                            if (sgsnRecord.Count == 0)
+                            {
+                                sgsnRecord.Add(record);
+                                continue;
+                            }
+                        }
+                        else
+                        {
+                            sgsnRecord.Add(record);
+                            continue;
+                        }
+                    }
 
                     _status.RecordsOut++;
                     _status.RecordsOutTotal++;
                     _status.Percent = (int)Math.Ceiling((double)cdr.Position / cdrLength * 100);
 
-                    recText = (formatter == null) ? String.Format("{0,8} > {1} {2}", record.Offset, _status.RecordsOut, record.ToString()) : formatter.FormatRecord(record);
+                    if (sgsn)
+                    {
+                        if (formatter == null)
+                        {
+                            StringBuilder sgsnText = new StringBuilder(String.Format("{0,8} > {1} {2}=[", sgsnRecord[0].Offset, _status.RecordsOut, sgsnRecord[0].Name), sgsnRecord.Count + 1);
+                            for (int s = 1; s < sgsnRecord.Count; s++)
+                            {
+                                if (s > 1)
+                                    sgsnText.Append(' ');
+                                sgsnText.Append(sgsnRecord[s].ToString());
+                            }
+
+                            sgsnText.Append("]");
+                            recText = sgsnText.ToString();
+                        }
+                        else
+                        {
+                            recText = formatter.FormatSGSNRecord(sgsnRecord);
+                        }
+                        sgsnRecord.Clear();
+                        sgsnRecord.Add(record);
+                    }
+                    else
+                    {
+                        recText = (formatter == null) ? String.Format("{0,8} > {1} {2}", record.Offset, _status.RecordsOut, record.ToString()) : formatter.FormatRecord(record);
+                    }
 
                     if ((filterRegex == null) || (filterRegex.Match(recText).Success))
                         dstFile.WriteLine(recText);

@@ -163,7 +163,7 @@ namespace CDR.Decoder.Parselets
         {
             if (value == null)
                 return String.Empty;
-            int v = IntegerParselet.ArrayToInteger(value);
+            int v = IntegerParselet.ArrayToInt32(value);
 
             if (_typesA.ContainsKey(v))
             {
@@ -176,7 +176,7 @@ namespace CDR.Decoder.Parselets
         {
             if (value == null)
                 return String.Empty;
-            int v = IntegerParselet.ArrayToInteger(value);
+            int v = IntegerParselet.ArrayToInt32(value);
 
             if (_typesB.ContainsKey(v))
             {
@@ -189,7 +189,7 @@ namespace CDR.Decoder.Parselets
         {
             if (value == null)
                 return String.Empty;
-            int v = IntegerParselet.ArrayToInteger(value);
+            int v = IntegerParselet.ArrayToInt32(value);
 
             if (_typesC.ContainsKey(v))
             {

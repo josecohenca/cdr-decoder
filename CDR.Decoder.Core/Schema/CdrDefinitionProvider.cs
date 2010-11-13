@@ -56,6 +56,7 @@ namespace CDR.Schema
         private static CdrDefinitionProvider _provInstance;
         private static string _xmlSource;
         private string _xmlVersion;
+        private string _type;
         private List<CdrDefinitionSchema> _schemaList;
         private int _currentSchema;
         private int _defaultSchema;
@@ -110,6 +111,7 @@ namespace CDR.Schema
             }
 
             _xmlVersion = cdrXML.GetAttribute("Version", String.Empty);
+            _type = cdrXML.GetAttribute("Type", String.Empty);
 
             foreach(XPathNavigator sgn in cdrXML.Select("Signature/HexSignature"))
             {
@@ -276,6 +278,11 @@ namespace CDR.Schema
         public string XmlVersion
         {
             get { return _xmlVersion; }
+        }
+
+        public string Type
+        {
+            get { return _type; }
         }
     }
 }

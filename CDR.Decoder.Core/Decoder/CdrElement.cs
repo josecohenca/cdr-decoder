@@ -104,7 +104,7 @@ namespace CDR.Decoder
 
         public IList<CdrElement> GetAllChilds()
         {
-            if (!this.IsConstructed)
+            if (!this.IsConstructed || this.IsEmpty)
                 return null;
 
             List<CdrElement> allChilds = new List<CdrElement>(1);
@@ -112,7 +112,7 @@ namespace CDR.Decoder
 
             foreach (CdrElement child in (this.Value as List<CdrElement>))
             {
-                if (child.IsConstructed && !child.IsEmpty)
+                if (child.IsConstructed)
                 {
                     td = child.GetAllChilds();
                     if (td != null)

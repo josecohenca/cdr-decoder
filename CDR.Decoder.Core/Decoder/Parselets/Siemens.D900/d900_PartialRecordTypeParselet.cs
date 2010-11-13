@@ -40,7 +40,7 @@ namespace CDR.Decoder.Parselets
         {
             if (value == null)
                 return String.Empty;
-            int v = IntegerParselet.ArrayToInteger(value);
+            int v = IntegerParselet.ArrayToInt32(value);
 
             if (_types.ContainsKey(v))
             {

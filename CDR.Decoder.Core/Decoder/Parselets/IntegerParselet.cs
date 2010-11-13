@@ -13,7 +13,17 @@ namespace CDR.Decoder.Parselets
             DefaultValueType = "Int";
         }
 
-        public static int ArrayToInteger(byte[] value)
+        public static Int64 ArrayToInt64(byte[] value)
+        {
+            Int64 v = 0;
+            for (int pos = 0; pos < value.Length; pos++)
+            {
+                v = v << 8 | value[pos] & 0xFF;
+            }
+            return v;
+        }
+
+        public static int ArrayToInt32(byte[] value)
         {
             int v = 0;
             for (int pos = 0; pos < value.Length; pos++)
@@ -27,7 +37,7 @@ namespace CDR.Decoder.Parselets
         {
             if (value == null)
                 return String.Empty;
-            return ArrayToInteger(value).ToString();
+            return ArrayToInt64(value).ToString();
         }
 
 

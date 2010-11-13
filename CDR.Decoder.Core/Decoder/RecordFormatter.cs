@@ -175,5 +175,52 @@ namespace CDR.Decoder
             }
             return builder.ToString();
         }
+
+        public string FormatSGSNRecord(IList<CdrElement> sgsnRecord)
+        {
+            List<CdrElement> childs = new List<CdrElement>();
+            foreach (CdrElement elm in sgsnRecord)
+            {
+                if (elm.IsConstructed)
+                {
+                    IList<CdrElement> t_childs = elm.GetAllChilds();
+                    if (t_childs != null)
+                        childs.AddRange(t_childs);
+                }
+                else
+                {
+                    childs.Add(elm);
+                }
+            }
+
+            if (childs.Count == 0) return String.Empty;
+
+            StringBuilder builder = new StringBuilder();
+            FormatterColumn column;
+            string fieldValue;
+
+            for (int i = 0; i < _settings.ColumnCount; i++)
+            {
+                column = _settings.GetColumnAt(i);
+                fieldValue = String.Empty;
+                foreach (CdrElement element in childs)
+                {
+                    if (String.Equals(element.Path, column.Definition.Path))
+                    {
+                        if (!String.IsNullOrEmpty(fieldValue))
+                        {
+                            fieldValue = String.Format("{0} | {1}", fieldValue, element.Parselet.Value(column.Definition.ValueType, element));
+                        }
+                        else
+                        {
+                            fieldValue = element.Parselet.Value(column.Definition.ValueType, element);
+                        }
+                    }
+                }
+
+                builder.AppendFormat(_settings.Format, fieldValue);
+            }
+            return builder.ToString();
+        }
     }
 }
