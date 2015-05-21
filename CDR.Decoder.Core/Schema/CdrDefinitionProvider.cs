@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Configuration;
 using System.Reflection;
 using System.Collections.Generic;
 
@@ -198,16 +199,17 @@ namespace CDR.Schema
             {
                 if (_provInstance == null)
                 {
-                    string appCfgPath = Assembly.GetAssembly(typeof(CdrDefinitionProvider)).Location + ".config";
-                    XPathNavigator configXML;
+                    //string appCfgPath = Assembly.GetAssembly(typeof(CdrDefinitionProvider)).Location + ".config";
+                    //XPathNavigator configXML;
                     try
                     {
-                        configXML = new XPathDocument(appCfgPath)
-                            .CreateNavigator()
-                            .SelectSingleNode("XMLDefinitionFile");
-                        _xmlSource = configXML.Value;
+                        //    configXML = new XPathDocument(appCfgPath)
+                        //        .CreateNavigator()
+                        //        .SelectSingleNode("XMLDefinitionFile");
+                        //    _xmlSource = configXML.Value;
+                        _xmlSource = ConfigurationManager.AppSettings["XMLDefinitionFile"];
                     }
-                    catch
+                    catch (Exception e)
                     {
                         _xmlSource = "CDR.Definition.xml";
                     }

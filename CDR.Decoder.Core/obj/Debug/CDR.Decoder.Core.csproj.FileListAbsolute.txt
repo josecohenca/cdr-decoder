@@ -1,0 +1,10 @@
+C:\dev\cdr-decoder\CDR.Decoder.Core\bin\Debug\Ericsson_GGSN.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Core\bin\Debug\Ericsson_SGSN_R7.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Core\bin\Debug\Ericsson.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Core\bin\Debug\SiemensD900.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Core\bin\Debug\CDR.Decoder.Core.dll.config
+C:\dev\cdr-decoder\CDR.Decoder.Core\bin\Debug\CDR.Decoder.Core.dll
+C:\dev\cdr-decoder\CDR.Decoder.Core\bin\Debug\CDR.Decoder.Core.pdb
+C:\dev\cdr-decoder\CDR.Decoder.Core\obj\Debug\CDR.Decoder.Core.dll
+C:\dev\cdr-decoder\CDR.Decoder.Core\obj\Debug\CDR.Decoder.Core.pdb
+C:\dev\cdr-decoder\CDR.Decoder.Core\obj\Debug\CDR.Decoder.Core.csprojResolveAssemblyReference.cache

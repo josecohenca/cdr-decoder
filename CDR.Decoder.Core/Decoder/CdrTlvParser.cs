@@ -19,7 +19,7 @@ namespace CDR.Decoder
         public CdrDefinitionProvider DefinitionProvider { get { return _definitionProvider; } }
         public ParseletProvider ParseletProvider { get { return _parseletProv; } }
 
-        private void ParseElement(CdrElement element)
+        public void ParseElement(CdrElement element)
         {
             ICdrElementDefinition elementDef = DefinitionProvider.FindDefinition(element.Path);
             if (elementDef != null)

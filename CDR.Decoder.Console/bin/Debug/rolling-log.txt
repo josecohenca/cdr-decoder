@@ -1,0 +1,526 @@
+[Header]
+2015-05-20 15:55:37,380 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: *** Available Schemas:
+2015-05-20 15:55:37,382 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 15:55:37,383 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 15:55:37,383 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: +++ Start new job:
+2015-05-20 15:55:37,383 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: Files to decode: 1
+2015-05-20 15:55:37,383 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 15:55:37,383 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 15:55:37,384 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1516)
+2015-05-20 15:55:37,384 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 15:55:37,384 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: *** Available Schemas:
+2015-05-20 15:55:37,384 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 15:55:37,385 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 15:55:37,385 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: +++ Start new job:
+2015-05-20 15:55:37,385 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: Files to decode: 1
+2015-05-20 15:55:37,385 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 15:55:37,385 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:30. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 15:55:37,386 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 15:55:37. Level: Info. Message: +++ Decoding is successful done.
+[Footer]
+[Header]
+2015-05-20 16:12:05,764 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1612)
+2015-05-20 16:12:05,780 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:12:05,781 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:12:05,781 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:12:05,781 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:12:05,781 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: +++ Start new job:
+2015-05-20 16:12:05,788 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1612)
+2015-05-20 16:12:05,789 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:12:05,789 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:12:05,789 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:12:05,789 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:12:05,789 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: +++ Start new job:
+2015-05-20 16:12:05,789 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Files to decode: 1
+2015-05-20 16:12:05,790 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1612)
+2015-05-20 16:12:05,790 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:12:05,790 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:12:05,790 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:12:05,790 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:12:05,790 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: +++ Start new job:
+2015-05-20 16:12:05,790 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Files to decode: 1
+2015-05-20 16:12:05,791 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:12:05,791 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1612)
+2015-05-20 16:12:05,791 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:12:05,791 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:12:05,792 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:12:05,792 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:12:05,792 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: +++ Start new job:
+2015-05-20 16:12:05,792 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Files to decode: 1
+2015-05-20 16:12:05,792 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:12:05,792 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 16:12:12,744 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1612)
+2015-05-20 16:12:12,744 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:12:12,744 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:12:12,744 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:12:12,745 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:12:12,745 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: +++ Start new job:
+2015-05-20 16:12:12,745 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Files to decode: 1
+2015-05-20 16:12:12,745 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:12:12,745 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 16:12:12,745 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1612)
+2015-05-20 16:12:12,745 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: +++ Start new job:
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Files to decode: 1
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:05. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 16:12:12,746 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:12:12. Level: Info. Message: +++ Decoding is successful done.
+[Footer]
+[Header]
+2015-05-20 16:33:25,516 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:33:25,533 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:33:25,534 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:33:25,534 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:33:25,534 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:33:25,534 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: +++ Start new job:
+2015-05-20 16:33:25,541 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:33:25,541 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:33:25,542 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:33:25,542 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:33:25,542 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:33:25,542 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: +++ Start new job:
+2015-05-20 16:33:25,542 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Files to decode: 1
+2015-05-20 16:33:25,542 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:33:25,543 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:33:25,543 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:33:25,543 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:33:25,543 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:33:25,543 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: +++ Start new job:
+2015-05-20 16:33:25,543 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Files to decode: 1
+2015-05-20 16:33:25,543 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:33:25,544 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:33:25,544 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:33:25,544 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:33:25,544 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:33:25,544 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:33:25,545 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: +++ Start new job:
+2015-05-20 16:33:25,545 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Files to decode: 1
+2015-05-20 16:33:25,545 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:33:25,545 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 16:33:32,668 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:33:32,669 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:33:32,669 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:33:32,669 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:33:32,669 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:33:32,669 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: +++ Start new job:
+2015-05-20 16:33:32,669 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Files to decode: 1
+2015-05-20 16:33:32,669 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:33:32,670 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 16:33:32,670 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:33:32,670 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:33:32,670 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:33:32,670 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:33:32,670 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:33:32,670 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: +++ Start new job:
+2015-05-20 16:33:32,671 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Files to decode: 1
+2015-05-20 16:33:32,671 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:33:32,671 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:25. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 16:33:32,671 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:33:32. Level: Info. Message: +++ Decoding is successful done.
+[Footer]
+[Header]
+2015-05-20 16:34:00,534 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:34:00,551 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:34:00,551 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:34:00,551 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:34:00,552 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:34:00,552 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: +++ Start new job:
+2015-05-20 16:34:00,559 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:34:00,559 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:34:00,559 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:34:00,559 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:34:00,560 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:34:00,560 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: +++ Start new job:
+2015-05-20 16:34:00,560 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Files to decode: 1
+2015-05-20 16:34:00,560 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:34:00,560 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:34:00,560 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:34:00,560 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:34:00,561 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:34:00,561 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: +++ Start new job:
+2015-05-20 16:34:00,561 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Files to decode: 1
+2015-05-20 16:34:00,561 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:34:00,562 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:34:00,562 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:34:00,562 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:34:00,562 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:34:00,562 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:34:00,562 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: +++ Start new job:
+2015-05-20 16:34:00,562 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Files to decode: 1
+2015-05-20 16:34:00,563 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:34:00,563 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 16:34:07,624 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:34:07,625 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:34:07,625 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:34:07,625 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:34:07,625 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:34:07,625 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: +++ Start new job:
+2015-05-20 16:34:07,625 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Files to decode: 1
+2015-05-20 16:34:07,625 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:34:07,626 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 16:34:07,626 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1633)
+2015-05-20 16:34:07,626 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:34:07,626 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:34:07,626 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:34:07,626 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:34:07,627 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: +++ Start new job:
+2015-05-20 16:34:07,627 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Files to decode: 1
+2015-05-20 16:34:07,627 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:34:07,627 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:00. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 16:34:07,627 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:34:07. Level: Info. Message: +++ Decoding is successful done.
+[Footer]
+[Header]
+2015-05-20 16:52:02,317 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1634)
+2015-05-20 16:52:02,334 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:52:02,334 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:52:02,334 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:52:02,334 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:52:02,334 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: +++ Start new job:
+2015-05-20 16:52:02,341 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1634)
+2015-05-20 16:52:02,341 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:52:02,341 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:52:02,342 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:52:02,342 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:52:02,342 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: +++ Start new job:
+2015-05-20 16:52:02,342 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: Files to decode: 1
+2015-05-20 16:52:02,342 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1634)
+2015-05-20 16:52:02,342 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:52:02,342 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:52:02,343 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:52:02,343 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:52:02,343 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: +++ Start new job:
+2015-05-20 16:52:02,343 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: Files to decode: 1
+2015-05-20 16:52:02,343 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:52:02,344 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1634)
+2015-05-20 16:52:02,344 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:52:02,344 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:52:02,344 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:52:02,344 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:52:02,344 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: +++ Start new job:
+2015-05-20 16:52:02,345 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: Files to decode: 1
+2015-05-20 16:52:02,345 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 16:52:02,345 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:02. Level: Info. Message: TTFILE00_8566 ... 
+[Header]
+2015-05-20 16:52:18,806 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1634)
+2015-05-20 16:52:18,823 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:52:18,823 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:52:18,823 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:52:18,824 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:52:18,824 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: +++ Start new job:
+2015-05-20 16:52:18,831 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1634)
+2015-05-20 16:52:18,831 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:52:18,831 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:52:18,831 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:52:18,832 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:52:18,832 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: +++ Start new job:
+2015-05-20 16:52:18,832 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: Files to decode: 1
+2015-05-20 16:52:18,832 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1634)
+2015-05-20 16:52:18,832 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 16:52:18,832 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Available Schemas:
+2015-05-20 16:52:18,832 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 16:52:18,833 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 16:52:18,833 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: +++ Start new job:
+2015-05-20 16:52:18,833 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: Files to decode: 1
+2015-05-20 16:52:18,833 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 16:52:18. Level: Info. Message: Schema: CompositeCallDataRecord
+[Header]
+2015-05-20 19:19:54,200 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1919)
+2015-05-20 19:19:54,216 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:19:54,216 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:19:54,216 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:19:54,216 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:19:54,217 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: +++ Start new job:
+2015-05-20 19:19:54,223 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1919)
+2015-05-20 19:19:54,224 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:19:54,224 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:19:54,224 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:19:54,224 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:19:54,224 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: +++ Start new job:
+2015-05-20 19:19:54,224 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Files to decode: 1
+2015-05-20 19:19:54,224 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1919)
+2015-05-20 19:19:54,225 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:19:54,225 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:19:54,225 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:19:54,225 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:19:54,225 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: +++ Start new job:
+2015-05-20 19:19:54,225 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Files to decode: 1
+2015-05-20 19:19:54,225 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:19:54,226 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1919)
+2015-05-20 19:19:54,226 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:19:54,226 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:19:54,226 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:19:54,227 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:19:54,227 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: +++ Start new job:
+2015-05-20 19:19:54,227 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Files to decode: 1
+2015-05-20 19:19:54,227 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:19:54,227 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 19:20:01,145 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1919)
+2015-05-20 19:20:01,145 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:20:01,145 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:20:01,145 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:20:01,145 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:20:01,145 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: +++ Start new job:
+2015-05-20 19:20:01,145 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Files to decode: 1
+2015-05-20 19:20:01,146 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:20:01,146 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:20:01,146 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1919)
+2015-05-20 19:20:01,146 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:20:01,146 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:20:01,146 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:20:01,147 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:20:01,147 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: +++ Start new job:
+2015-05-20 19:20:01,147 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Files to decode: 1
+2015-05-20 19:20:01,147 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:20:01,147 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:19:54. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:20:01,147 [10] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:20:01. Level: Info. Message: +++ Decoding is successful done.
+[Header]
+2015-05-20 19:34:40,565 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1925)
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: +++ Start new job:
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1925)
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: +++ Start new job:
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Files to decode: 1
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1925)
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: +++ Start new job:
+2015-05-20 19:34:40,581 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Files to decode: 1
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1925)
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: +++ Start new job:
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Files to decode: 1
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:34:40,596 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1925)
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: +++ Start new job:
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Files to decode: 1
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1925)
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: +++ Start new job:
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Files to decode: 1
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:40. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:34:47,409 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:34:47. Level: Info. Message: +++ Decoding is successful done.
+[Header]
+2015-05-20 19:45:01,373 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:01,389 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:01. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:45:08,314 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:08. Level: Info. Message: +++ Decoding is successful done.
+[Header]
+2015-05-20 19:45:39,031 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:39,046 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:39,046 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:39,046 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:39,046 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:39,046 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:39,062 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1945)
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: +++ Start new job:
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Files to decode: 1
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:39. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:45:45,804 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:45:45. Level: Info. Message: +++ Decoding is successful done.
+[Header]
+2015-05-20 19:46:06,139 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1946)
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: +++ Start new job:
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1946)
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: +++ Start new job:
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Files to decode: 1
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1946)
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:46:06,155 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: +++ Start new job:
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Files to decode: 1
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1946)
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: +++ Start new job:
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Files to decode: 1
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:46:06,170 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 19:46:12,884 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1946)
+2015-05-20 19:46:12,884 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:46:12,884 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:46:12,884 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:46:12,884 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:46:12,884 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: +++ Start new job:
+2015-05-20 19:46:12,884 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Files to decode: 1
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1946)
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: +++ Start new job:
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Files to decode: 1
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:06. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:46:12,900 [6] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:46:12. Level: Info. Message: +++ Decoding is successful done.
+[Header]
+2015-05-20 19:53:59,692 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1953)
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: +++ Start new job:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1953)
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: +++ Start new job:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Files to decode: 1
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1953)
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: +++ Start new job:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Files to decode: 1
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1953)
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: +++ Start new job:
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Files to decode: 1
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:53:59,708 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: TTFILE00_8566 ... 
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1953)
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: +++ Start new job:
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Files to decode: 1
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** CDR Decoder Library 2.2 - (build 150520-1953)
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Definition XML Version: Ericsson 100313-1505
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Schemas:
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: > CompositeCallDataRecord
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: *** Available Signatures: A0
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: +++ Start new job:
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Files to decode: 1
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: Schema: CompositeCallDataRecord
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:53:59. Level: Info. Message: TTFILE00_8566 ... 77052
+2015-05-20 19:54:06,665 [11] INFO  CDR.Decoder.Console.Program [(null)] - Timestamp: 2015/05/20 19:54:06. Level: Info. Message: +++ Decoding is successful done.
+[Footer]

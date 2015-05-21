@@ -1,0 +1,14 @@
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\Ericsson_GGSN.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\Ericsson_SGSN_R7.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\Ericsson.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\SiemensD900.CDR.Definition.xml
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\CDR.Decoder.Console.exe.config
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\CDR.Decoder.Console.exe
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\CDR.Decoder.Console.pdb
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\CDR.Decoder.Core.dll
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\CDR.Decoder.Core.pdb
+C:\dev\cdr-decoder\CDR.Decoder.Console\obj\Debug\CDR.Decoder.Console.csprojResolveAssemblyReference.cache
+C:\dev\cdr-decoder\CDR.Decoder.Console\obj\Debug\CDR.Decoder.Console.exe
+C:\dev\cdr-decoder\CDR.Decoder.Console\obj\Debug\CDR.Decoder.Console.pdb
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\log4net.dll
+C:\dev\cdr-decoder\CDR.Decoder.Console\bin\Debug\log4net.xml
