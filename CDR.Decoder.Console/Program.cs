@@ -99,9 +99,8 @@ namespace CDR.Decoder.Console
 
         public static void Log_MessagesChanged(object sender, EventArgs e)
         {
-            List<LogMessage> lm = new List<LogMessage>();
-            lm.AddRange(_dispatcher.Logger.LastMessages);
-            foreach(LogMessage l in lm)
+            // lm.AddRange(_dispatcher.Logger.LastMessages);
+            foreach(LogMessage l in _dispatcher.Logger.FlushLastMessages())
             {
                 if (log.IsInfoEnabled && l.Level == LogLevel.Info) log.Info(string.Format("Timestamp: {0}. Level: {1}. Message: {2}", l.TimeStamp.ToString("yyyy/MM/dd HH:mm:ss"), l.Level.ToString(), l.Message));
                 else if (log.IsErrorEnabled && l.Level == LogLevel.Error) log.Error(string.Format("Timestamp: {0}. Level: {1}. Message: {2}", l.TimeStamp.ToString("yyyy/MM/dd HH:mm:ss"), l.Level.ToString(), l.Message));

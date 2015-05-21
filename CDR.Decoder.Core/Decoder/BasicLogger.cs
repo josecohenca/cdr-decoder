@@ -63,6 +63,17 @@ namespace CDR.Decoder
             }
         }
 
+        public LogMessage[] FlushLastMessages()
+        {
+            lock (_buffer)
+            {
+                LogMessage[] lm = new LogMessage[_buffer.Count];
+                _buffer.CopyTo(lm);
+                _buffer.Clear();
+                return lm;
+            }
+        }
+
         public event EventHandler MessagesChanged;
 
         public void WriteLogMessage(string message, LogLevel level)

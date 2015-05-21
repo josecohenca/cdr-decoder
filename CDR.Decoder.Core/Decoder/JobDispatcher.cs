@@ -565,7 +565,8 @@ namespace CDR.Decoder
 
                     cdr.Close();
 
-                    _logger.AppendLogMessage(_status.RecordsOut.ToString());
+                    _logger.WriteLogMessage(_status.RecordsOut.ToString(), LogLevel.Info);
+                    //_logger.AppendLogMessage(_status.RecordsOut.ToString());
 
                     if (_worker.CancellationPending)
                     {
@@ -588,7 +589,9 @@ namespace CDR.Decoder
                     {
                         _status.ResultCode = JobResultCode.AllOK;
                         _logger.WriteLogMessage("+++ Decoding is successful done.", LogLevel.Info);
-                        WriteToSql(dict, _connectionString, _overWrite);
+                        WriteToSql(dict);
+                        if (_overWrite) 
+                            _overWrite = false;
                     }
                     dict.Clear();
                 }
@@ -600,11 +603,11 @@ namespace CDR.Decoder
             }
         }
 
-        private void CreateTable(string connectionString, string tableName, DataTable sourceTable, bool overWrite)
+        private void CreateTable(string tableName, DataTable sourceTable)
         {
             string sqlsc = "";
 
-            if (overWrite)
+            if (_overWrite) 
                 sqlsc += "IF OBJECT_ID('" + tableName + "') IS NOT NULL DROP TABLE " + tableName + "\n";
 
             sqlsc += "IF OBJECT_ID('" + tableName + "') IS NULL \n";
@@ -616,7 +619,7 @@ namespace CDR.Decoder
                 sqlsc += ",";
             }
             sqlsc = sqlsc.Substring(0, sqlsc.Length - 1) + ") \n";
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
                 using(SqlCommand cmd = new SqlCommand(sqlsc,connection))
@@ -640,9 +643,9 @@ namespace CDR.Decoder
             }
         }
 
-        private void BulkCopyTable(string connectionString, string tableName, DataTable sourceTable)
+        private void BulkCopyTable(string tableName, DataTable sourceTable)
         {
-            using (SqlConnection destinationConnection = new SqlConnection(connectionString))
+            using (SqlConnection destinationConnection = new SqlConnection(_connectionString))
             {
                 destinationConnection.Open();
                 string[] restrictions = new string[4] { null, null, tableName, null };
@@ -672,7 +675,7 @@ namespace CDR.Decoder
             }
         }
 
-        private void WriteToSql(Dictionary<string,DataTable> dict, string connectionString, bool overWrite)
+        private void WriteToSql(Dictionary<string,DataTable> dict)
         {
             foreach (KeyValuePair<string, DataTable> kv in dict)
             {
@@ -680,8 +683,8 @@ namespace CDR.Decoder
                 {
                     string tableName = kv.Key;
                     DataTable sourceTable = kv.Value;
-                    CreateTable(connectionString, tableName, sourceTable, overWrite);
-                    BulkCopyTable(connectionString, tableName, sourceTable);
+                    CreateTable(tableName, sourceTable);
+                    BulkCopyTable(tableName, sourceTable);
                 }
                 catch (Exception ex)
                 {
